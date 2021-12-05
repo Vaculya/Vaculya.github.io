@@ -1,0 +1,138 @@
+* {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.header {
+  height: 165px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .header_pos {
+    height: 140px;
+    padding-top: 25px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1); }
+    .header_pos a {
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 45px;
+      letter-spacing: 4px;
+      text-align: left; }
+    .header_pos_addres {
+      text-align: left;
+      font-weight: 200;
+      font-size: 25px;
+      margin-top: 15px; }
+  .header_info {
+    text-align: right;
+    height: 165px;
+    padding-top: 25px; }
+    .header_info_number {
+      text-decoration: none;
+      color: black;
+      font-size: 35px;
+      font-weight: 700; }
+    .header_info_workTime {
+      color: inherit;
+      margin-top: 5px;
+      font-weight: 300;
+      font-size: 20px; }
+
+.menu {
+  margin-top: 10px;
+  height: 50px; }
+  .menu_block {
+    width: 1000px;
+    margin: 0 auto; }
+    .menu_block ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-weight: 400;
+      font-size: 20px; }
+      .menu_block ul a {
+        text-decoration: none;
+        color: black; }
+        .menu_block ul a li {
+          list-style-type: none; }
+
+.Prices_Title {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px; }
+.Prices .price_list_kooh {
+  height: 500px;
+  margin-left: 50px; }
+  .Prices .price_list_kooh .Proces_subtitle {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 25px; }
+  .Prices .price_list_kooh .price_list_kooh_item1, .Prices .price_list_kooh .price_list_kooh_item2, .Prices .price_list_kooh .price_list_kooh_item3, .Prices .price_list_kooh .price_list_kooh_item4, .Prices .price_list_kooh .price_list_kooh_item5, .Prices .price_list_kooh .price_list_kooh_item6, .Prices .price_list_kooh .price_list_kooh_item7, .Prices .price_list_kooh .price_list_kooh_item8, .Prices .price_list_kooh .price_list_kooh_item9, .Prices .price_list_kooh .price_list_kooh_item10 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 15px; }
+    .Prices .price_list_kooh .price_list_kooh_item1 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item2 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item3 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item4 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item5 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item6 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item7 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item8 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item9 .price_list_kooh_item_box, .Prices .price_list_kooh .price_list_kooh_item10 .price_list_kooh_item_box {
+      width: 80%;
+      position: relative; }
+      .Prices .price_list_kooh .price_list_kooh_item1 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item2 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item3 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item4 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item5 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item6 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item7 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item8 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item9 .price_list_kooh_item_box .price_list_kooh_name, .Prices .price_list_kooh .price_list_kooh_item10 .price_list_kooh_item_box .price_list_kooh_name {
+        font-weight: 700;
+        font-size: 20px; }
+      .Prices .price_list_kooh .price_list_kooh_item1 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item2 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item3 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item4 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item5 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item6 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item7 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item8 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item9 .price_list_kooh_item_box span, .Prices .price_list_kooh .price_list_kooh_item10 .price_list_kooh_item_box span {
+        display: block;
+        width: 408px;
+        border: 1px dotted #ddd;
+        position: absolute;
+        top: 17px;
+        left: 146px; }
+      .Prices .price_list_kooh .price_list_kooh_item1 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item2 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item3 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item4 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item5 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item6 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item7 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item8 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item9 .price_list_kooh_item_box .price_list_kooh_descr, .Prices .price_list_kooh .price_list_kooh_item10 .price_list_kooh_item_box .price_list_kooh_descr {
+        width: 100%;
+        font-weight: 200;
+        font-size: 20px; }
+    .Prices .price_list_kooh .price_list_kooh_item1 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item2 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item3 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item4 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item5 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item6 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item7 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item8 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item9 .price_list_kooh_cent, .Prices .price_list_kooh .price_list_kooh_item10 .price_list_kooh_cent {
+      display: block;
+      width: 100px;
+      text-align: right;
+      font-weight: 700;
+      font-size: 20px; }
+  .Prices .price_list_kooh .price_list_kooh_item2 .price_list_kooh_item_box span {
+    left: 60px;
+    width: 494px; }
+  .Prices .price_list_kooh .price_list_kooh_item3 .price_list_kooh_item_box span {
+    left: 73px;
+    width: 468px; }
+  .Prices .price_list_kooh .price_list_kooh_item4 .price_list_kooh_item_box span {
+    left: 82px;
+    width: 460px; }
+  .Prices .price_list_kooh .price_list_kooh_item5 .price_list_kooh_item_box span {
+    left: 59px;
+    width: 482px; }
+  .Prices .price_list_kooh .price_list_kooh_item6, .Prices .price_list_kooh .price_list_kooh_item7, .Prices .price_list_kooh .price_list_kooh_item8, .Prices .price_list_kooh .price_list_kooh_item9, .Prices .price_list_kooh .price_list_kooh_item10 {
+    margin-bottom: 37px; }
+  .Prices .price_list_kooh .price_list_kooh_item6 .price_list_kooh_item_box span {
+    left: 203px;
+    width: 354px; }
+  .Prices .price_list_kooh .price_list_kooh_item7 .price_list_kooh_item_box span {
+    left: 164px;
+    width: 387px; }
+  .Prices .price_list_kooh .price_list_kooh_item8 .price_list_kooh_item_box span {
+    left: 167px;
+    width: 388px; }
+  .Prices .price_list_kooh .price_list_kooh_item9 .price_list_kooh_item_box span {
+    left: 155px;
+    width: 399px; }
+  .Prices .price_list_kooh .price_list_kooh_item10 .price_list_kooh_item_box span {
+    left: 131px;
+    width: 422px; }
+
+/*# sourceMappingURL=price.css.map */
